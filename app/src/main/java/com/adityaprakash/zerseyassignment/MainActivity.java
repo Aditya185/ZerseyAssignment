@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity implements HBRecorderListene
                         //and stop it if it is
                         if (hbRecorder.isBusyRecording()) {
                             hbRecorder.stopScreenRecording();
-                            startbtn.setText("Start");
+                            startbtn.setText("Record Video");
                         }
                         //else start recording
                         else {
@@ -305,7 +305,7 @@ public class MainActivity extends AppCompatActivity implements HBRecorderListene
 
     @Override
     public void HBRecorderOnComplete() {
-        startbtn.setText("Start");
+        startbtn.setText("Record Video");
         showLongToast("Saved Successfully");
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             refreshGallery();
@@ -336,7 +336,7 @@ public class MainActivity extends AppCompatActivity implements HBRecorderListene
             Log.e("HBRecorderOnError", reason);
         }
 
-        startbtn.setText("start");
+        startbtn.setText("Record Video");
 
     }
     //Create Folder
