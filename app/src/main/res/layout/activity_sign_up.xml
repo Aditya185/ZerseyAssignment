@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#c3c3"
+    tools:context=".LoginActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <TextView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            android:text="Zersey"
+            android:textSize="60dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editTextLayout"
+
+            android:layout_below="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textColorHint="#000"
+            android:outlineAmbientShadowColor="#228B22"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="#11000000"
+
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textSize="16dp"
+
+                android:maxLines="1"
+                android:textColor="@android:color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editTextLayout3"
+            android:outlineAmbientShadowColor="#228B22"
+
+            android:layout_below="@+id/editTextLayout"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textColorHint="#000"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText3"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="#11000000"
+
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textSize="16dp"
+                android:maxLines="1"
+                android:textColor="@android:color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_rounded"
+            android:id="@+id/signUpButton"
+            android:layout_marginBottom="31dp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_below="@+id/editTextLayout3"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true">
+
+
+        </Button>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have a account?"
+            android:textSize="20dp"
+            android:layout_below="@+id/signUpButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="6dp" />
+
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "775996147186",
+    "firebase_url": "https://jabber-b1aa7.firebaseio.com",
+    "project_id": "jabber-b1aa7",
+    "storage_bucket": "jabber-b1aa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775996147186:android:1c34006c071cfa26cd576b",
+        "android_client_info": {
+          "package_name": "com.adityaprakash.zerseyassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775996147186-02ar3drpngp0sb9clq407ptq53v9bivk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adityaprakash.zerseyassignment",
+            "certificate_hash": "93759a9cf394b449367728a0436f45d806f3ca91"
+          }
+        },
+        {
+          "client_id": "775996147186-29d7s4eqs23ags9iqre0biveeg8d1jeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg2gM68WtFc-5flYYoLvBJs3kF6rsE1pE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775996147186-29d7s4eqs23ags9iqre0biveeg8d1jeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775996147186:android:edb1e48c9c271896",
+        "android_client_info": {
+          "package_name": "com.example.jabber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775996147186-dvfv5mlt0j5knl9vk00h3kn3u82csuh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jabber",
+            "certificate_hash": "d6caf389ed7a95b9ed760dd43d864a5731620d0f"
+          }
+        },
+        {
+          "client_id": "775996147186-29d7s4eqs23ags9iqre0biveeg8d1jeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg2gM68WtFc-5flYYoLvBJs3kF6rsE1pE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775996147186-29d7s4eqs23ags9iqre0biveeg8d1jeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
